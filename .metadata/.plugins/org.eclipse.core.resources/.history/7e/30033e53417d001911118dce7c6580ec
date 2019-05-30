@@ -1,0 +1,13 @@
+package Exam04;
+
+public class Pursuer {
+
+	public int pretty;
+	public int ugly;
+	public Girl totalgirls;
+	
+	public void married() {
+		System.out.println("美女一共有"+totalgirls.length);
+	}
+
+}

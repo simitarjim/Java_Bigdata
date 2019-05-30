@@ -1,0 +1,16 @@
+package Exam04;
+
+public class a111111 {
+	
+		public static void main(String[] args){
+			double[] arr = new double[5];
+			for (int i = 0; i < arr.length; i++) {
+				arr[i].print();
+				System.out.println();
+				
+			}
+		}
+	}
+
+
+

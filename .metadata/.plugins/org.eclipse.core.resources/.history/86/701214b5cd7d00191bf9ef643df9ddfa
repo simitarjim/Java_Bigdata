@@ -1,0 +1,41 @@
+package Exam04;
+
+public class No08 {
+	
+	public static void main(String[] args) {
+		Marrage pursuer = new Marrage();
+		int pursuer.pretty = 51;
+		int pursuer.ugly = 49;
+		Girl[] totalgirls = new Girl[pursuer.pretty+pursuer.ugly];
+		
+		Girl p1 = new Girl();
+		p1.cook = true;
+		Girl p2 = new Girl();
+		p2.cook = true;
+		Girl p3 = new Girl();
+		p3.cook = false;
+		Girl p4 = new Girl();
+		p4.cook = true;
+		Girl p5 = new Girl();
+		p5.cook = false;
+		Girl p6 = new Girl();
+		p6.cook = true;
+		Girl p7 = new Girl();
+		p7.cook = true;
+		totalgirls[0] = p1;
+		totalgirls[1] = p2;
+		totalgirls[2] = p3;
+		totalgirls[3] = p4;
+		totalgirls[4] = p5;
+		totalgirls[5] = p6;
+		totalgirls[6] = p7;
+		
+	
+		
+		
+	}
+
+}
+
+
+

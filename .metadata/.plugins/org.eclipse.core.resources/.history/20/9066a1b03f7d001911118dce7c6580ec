@@ -1,0 +1,38 @@
+package Exam04;
+
+public class No08 {
+	
+	public static void main(String[] args) {
+		Pursuer female = new Pursuer();
+		female.pretty = 51;
+		female.ugly = 49;
+		Prettygirl[] prettygirls = new Prettygirl[female.pretty];
+		Uglygirl[] uglygirls = new Uglygirl[female.ugly];
+		
+		Prettygirls p1 = new Prettygirls();
+		p1.cook = true;
+		Prettygirls p2 = new Prettygirls();
+		p2.cook = true;
+		Prettygirls p3 = new Prettygirls();
+		p3.cook = false;
+		Prettygirls p4 = new Prettygirls();
+		p4.cook = true;
+		Prettygirls p5 = new Prettygirls();
+		p5.cook = false;
+		
+		Uglygirls u1 = new Uglygirls();
+		u1.cook = true; 
+		Uglygirls u2 = new Uglygirls();
+		u2.cook = false;
+		Uglygirls u3 = new Uglygirls();
+		u3.cook = true;
+		Uglygirls u4 = new Uglygirls();
+		u4.cook = false;
+		Uglygirls u5 = new Uglygirls();
+		u5.cook = true;
+	}
+
+}
+
+
+

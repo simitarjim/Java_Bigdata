@@ -1,0 +1,24 @@
+package Exam04;
+
+public class a111111 {
+	
+		public static void main(String[] args){
+			Company auikc = new Cpmpany();
+			zuikc.open();
+			zuikc.checkAll();
+				
+			}
+		}
+class Company{
+	work[] workers = new work[5];
+	public void open() {
+		Teacher t1 = new Teacher();
+		Teacher t2 = new Teacher();
+		Teacher t3 = new Teacher();
+		Machine m1 = new Machine();
+		Machine m2 = new Machine();
+	}
+}
+
+
+

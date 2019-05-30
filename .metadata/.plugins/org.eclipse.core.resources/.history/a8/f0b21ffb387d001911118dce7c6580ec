@@ -1,0 +1,17 @@
+package Exam04;
+
+public class No08 {
+	
+	public static void main(String[] args) {
+		Pursuer female = new Pursuer();
+		female.number = 100;
+		female.pretty = 51;
+		female.ugly = 49;
+		
+		
+	}
+
+}
+
+
+

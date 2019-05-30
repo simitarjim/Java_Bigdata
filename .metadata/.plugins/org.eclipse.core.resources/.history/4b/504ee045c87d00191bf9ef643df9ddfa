@@ -1,0 +1,10 @@
+package Exam04;
+
+public class Pursuer {
+
+	public int pretty;
+	public int ugly;
+	public Girl[] totalgirls;
+	
+
+}

@@ -1,0 +1,53 @@
+package Exam04;
+
+public class a111111 {
+	
+		public static void main(String[] args){
+			Teacher a  = new Teacher();
+			a.name = "lu";
+			Student b = new Student();
+			b.name = "li";
+
+			a.teaching();
+			b.learning();
+			a.walk();
+			b.walk();
+			a.publishHomework();
+		}
+	}
+
+	class Person{
+
+		public String name;
+		public int age;
+
+		public void walk(){
+			System.out.println(this.name + "在走路~~");
+		}
+
+	}
+
+	class Teacher extends Person{
+
+		public void teaching(){
+			System.out.println(this.name + "在教书~~~");
+		}
+
+		public void publishHomework(){
+			System.out.println(this.name + "在布置作业~~~");
+		}
+	}
+
+	class Student extends Person{
+
+		public void learning(){
+			System.out.println(this.name + "在学习~~~");
+		}
+
+		public void doHomework(){
+			System.out.println(this.name + "在做作业~~~");
+		}
+	}
+
+
+

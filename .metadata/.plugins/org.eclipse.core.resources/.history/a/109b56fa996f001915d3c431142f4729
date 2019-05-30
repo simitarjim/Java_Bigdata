@@ -1,0 +1,24 @@
+package Java_bigdata;
+
+public class SampleTester06 {
+	public static void main(String[] args) {
+		//按月付息，到期还本
+		double[][] interests = compute();
+		//print
+		for (int i = 0; i < interests.length; i++) {
+			System.out.println("期数:"+"\t");
+			System.out.println("还多少利息:"+"\t");
+			System.out.println("还多少本金:"+"\t");
+			System.out.println("总共还多少:"+"\t");
+			System.out.println("还剩余多少要还:"+"\t");
+			System.out.println("总利息:"+"\t");
+			System.out.println("还款总额:"+"\t");
+		}
+	}
+
+	private static double[][] compute() {
+		double[][] interests = new double[12][5];
+		return interests;
+	}
+
+}

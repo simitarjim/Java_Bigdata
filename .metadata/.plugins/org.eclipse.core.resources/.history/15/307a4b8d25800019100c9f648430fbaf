@@ -1,0 +1,28 @@
+package Array_1_9;
+
+import java.util.ArrayList;
+
+public class Array_1_9_1 {
+	public static void main(String[] args) {
+		String[] arr = new String[5];
+		arr[0] = "zhangsan";
+		arr[1] = "zhangsi";
+		arr[2] = "zhangwu";
+		arr[3] = "zhangliu";
+		arr[4] = "zhangqi";
+		
+		ArrayList list01 = new ArrayList();
+		list01.add("zhangsan1");
+		list01.add("lisi");
+		list01.add("wangwu");
+		System.out.println(arr[0]);
+		System.out.println(list01.get(0));
+		System.out.println(arr.length);
+		System.out.println(list01.size());
+		for (int i = 0; i < list01.size(); i++) {
+			System.out.println(list01.get(i));
+		}
+		list01.add("add1");
+	}
+	
+}

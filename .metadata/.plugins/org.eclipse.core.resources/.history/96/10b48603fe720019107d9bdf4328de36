@@ -1,0 +1,25 @@
+package Java_bigdata;
+
+import java.util.Scanner;
+
+public class Test {
+	public static void main(String[] args) {
+		int total = 20;
+		int per_bottle = 3;
+		int total_bottle = 0;
+		while (total>= per_bottle) {
+			
+			//能够买的饮料数
+			int number_bottle = total/per_bottle;
+			//总共能买的饮料瓶数
+			total_bottle = total_bottle+number_bottle;
+			//买完饮料后剩余多少钱
+			int money = total%per_bottle;
+			//剩余的钱与瓶子兑换的钱
+			total = money+number_bottle;
+			
+			
+		}
+		System.out.println("一共能买"+total_bottle+"瓶");
+}
+}

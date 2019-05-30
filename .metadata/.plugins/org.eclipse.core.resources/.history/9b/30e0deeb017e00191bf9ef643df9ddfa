@@ -1,0 +1,46 @@
+package Exam04;
+
+public class No09 {
+	public static void main(String[] args) {
+
+		// 数据基本信息 从网络中读取
+		ProcessData webdata = new ProcessData();
+		webdata.name = "bigdata";
+		webdata.path = "www.zuikc.com";
+		// 数据从硬盘中读取
+		ProcessData1 driverdata = new ProcessData1();
+		driverdata.name = "java";
+		driverdata.path = "c:";
+		// 数据从内存上读取
+		ProcessData2 memmorydata3 = new ProcessData2();
+		memmorydata3.name = "java1";
+		memmorydata3.path = "heap";
+
+		webdata.downloading();
+		webdata.reading();
+		webdata.process();
+		driverdata.reading();
+		driverdata.process();
+		memmorydata3.reading();
+		memmorydata3.process();
+	}
+
+}
+
+class ReadData{
+	public String name;
+	public String path;
+	
+	public void file() {
+		System.out.println("开始处理文件");
+	}
+}
+
+class ProcessData extends ReadData{
+	public void downloading() {
+		System.out.println("开始从"+ this.path+"下载文件"+"this.name");
+	public void reading() {
+		System.out.println("开始读取文件");
+	}
+	}
+}

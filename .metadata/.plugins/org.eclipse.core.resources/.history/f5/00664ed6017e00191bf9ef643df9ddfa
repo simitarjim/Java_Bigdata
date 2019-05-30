@@ -1,0 +1,32 @@
+package Exam04;
+
+public class No09 {
+	public static void main(String[] args) {
+		
+		
+		//数据基本信息 从网络中读取
+		ProcessData webdata = new ProcessData();
+		webdata.name = "bigdata";
+		webdata.path = "www.zuikc.com";
+		//数据从硬盘中读取
+		ProcessData driverdata = new ProcessData();
+		driverdata.name = "java";
+		driverdata.path = "c:";
+		//数据从内存上读取
+		ProcessData memmorydata3 = new ProcessData();
+		memmorydata3.name = "java1";
+		memmorydata3.path = "heap";
+		
+		webdata.downloading();
+		webdata.reading();
+		webdata.process();
+		driverdata.reading();
+		driverdata.process();
+		memmorydata3.reading();
+		memmorydata3.process();
+	}
+
+}
+
+class Proc
+

@@ -1,0 +1,24 @@
+package Exam04;
+
+public class Marriage {
+
+	public int pretty;
+	public int ugly;
+	public Marriage pursuer1;
+	public Girl[] totalgirls;
+	
+	Girl[] cookgirl = new Girl[7];
+
+	public void marriage() {
+		for (int i = 0; i < 7; i++) {
+			if (totalgirls[i].cook == true) {
+				cookgirl[i] = totalgirls[i];
+			
+			}
+		}
+		int index = (int) (Math.random() * cookgirl.length);
+		System.out.println("随机找的会做饭的为" + cookgirl[index].name);
+
+	}
+
+}

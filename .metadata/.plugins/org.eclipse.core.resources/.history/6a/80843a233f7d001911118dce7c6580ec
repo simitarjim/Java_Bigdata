@@ -1,0 +1,8 @@
+package Exam04;
+
+public class Prettygirls {
+
+
+	public boolean cook1;
+
+}

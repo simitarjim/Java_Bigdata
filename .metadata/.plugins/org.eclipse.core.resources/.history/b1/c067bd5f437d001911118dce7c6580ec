@@ -1,0 +1,23 @@
+package Exam04;
+
+public class Pursuer {
+
+	public int pretty;
+	public int ugly;
+	public Girl totalgirls;
+	public Pursuer girls;
+	
+	public void married() {
+		System.out.println("美女一共有"+girls.pretty+"位");
+		System.out.println("丑女一共有"+girls.ugly+"位");
+		int[] cook = new int[girls.pretty+girls.ugly];
+		for (int i = 0; i < (girls.pretty+girls.ugly); i++) {
+			if (totalgirls[i]) {
+				
+			}
+			
+		}
+		
+	}
+
+}

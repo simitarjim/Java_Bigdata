@@ -1,0 +1,23 @@
+package Exam04;
+
+
+public class Pursuer {
+
+	public int pretty;
+	public int ugly;
+	public Girl[] totalgirls;
+	public Pursuer girls;
+	
+	public void girls() {
+		int[] cookgirls = new int[girls.pretty+girls.ugly];
+		for (int i = 0; i < totalgirls.length; i++) {
+			if (totalgirls[i].cook == true) {
+				cookgirls[i] = totalgirls[i];
+			}
+			
+		}
+		
+	}
+	
+
+}

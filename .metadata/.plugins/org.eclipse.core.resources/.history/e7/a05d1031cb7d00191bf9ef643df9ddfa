@@ -1,0 +1,47 @@
+package Exam04;
+
+public class No08 {
+	
+	public static void main(String[] args) {
+//		Pursuer girls = new Pursuer();
+//		girls.pretty = 51;
+//		girls.ugly = 49;
+//		Girl[] totalgirls = new Girl[girls.pretty+girls.ugly];
+//		
+//		Girl p1 = new Girl();
+//		p1.cook = true;
+//		Girl p2 = new Girl();
+//		p2.cook = true;
+//		Girl p3 = new Girl();
+//		p3.cook = false;
+//		Girl p4 = new Girl();
+//		p4.cook = true;
+//		Girl p5 = new Girl();
+//		p5.cook = false;
+//		Girl p6 = new Girl();
+//		p6.cook = true;
+//		Girl p7 = new Girl();
+//		p7.cook = true;
+//		totalgirls[0] = p1;
+//		totalgirls[1] = p2;
+//		totalgirls[2] = p3;
+//		totalgirls[3] = p4;
+//		totalgirls[4] = p5;
+//		totalgirls[5] = p6;
+//		totalgirls[6] = p7;
+		
+		int[] arr = {1,2,3,4,5,6};
+		int[] arr1 = new int[arr.length];
+		for (int i = 0; i < arr.length; i++) {
+			arr1[i] = arr[i];
+			
+		}
+		System.out.println(arr1[i]);
+		
+		
+	}
+
+}
+
+
+
